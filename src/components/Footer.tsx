@@ -13,10 +13,10 @@ const Footer = () => {
           <div className="md:col-span-1">
             <Link to="/" className="flex items-center gap-2 text-2xl font-display font-bold mb-4">
               <Camera className="h-6 w-6" />
-              <span>AutoLens</span>
+              <span>Burggraeve Cinematics</span>
             </Link>
             <p className="text-gray-400 mb-6">
-              Premium automotive photography and videography services for discerning clients.
+              Fueling passion, Framing speed.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="Facebook">
@@ -81,7 +81,7 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-400">
               <li>123 Automotive Lane</li>
               <li>Los Angeles, CA 90001</li>
-              <li>info@autolens.example.com</li>
+              <li>info@burggraevecinematics.com</li>
               <li>+1 (555) 123-4567</li>
             </ul>
           </div>
@@ -90,7 +90,7 @@ const Footer = () => {
         <hr className="border-gray-800 my-8" />
         
         <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
-          <p>&copy; {currentYear} AutoLens. All rights reserved.</p>
+          <p>&copy; {currentYear} Burggraeve Cinematics. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

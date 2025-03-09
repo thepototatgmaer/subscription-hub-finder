@@ -47,7 +47,7 @@ const Navigation = () => {
           className="flex items-center gap-2 text-2xl font-display font-bold"
         >
           <Camera className="h-6 w-6" />
-          <span>AutoLens</span>
+          <span>Burggraeve Cinematics</span>
         </Link>
 
         {/* Desktop Navigation */}

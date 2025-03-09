@@ -24,14 +24,13 @@ const Home = () => {
         <div className="container z-10 px-4 text-center">
           <AnimatedSection animation="fade-up" delay={300}>
             <h1 className="text-4xl md:text-6xl font-display font-bold text-white mb-6">
-              Capturing Automotive Excellence
+              Burggraeve Cinematics
             </h1>
           </AnimatedSection>
           
           <AnimatedSection animation="fade-up" delay={600}>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-              Premium photography and videography services for automotive enthusiasts,
-              dealerships, and manufacturers.
+              Fueling passion, Framing speed.
             </p>
           </AnimatedSection>
           
@@ -163,7 +162,7 @@ const Home = () => {
             <AnimatedSection animation="fade-up" delay={200} className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md">
               <div className="flex flex-col h-full">
                 <p className="text-gray-600 dark:text-gray-300 italic mb-6">
-                  "AutoLens delivered exceptional photography for our dealership. Their attention to detail and creative approach made our inventory stand out online."
+                  "Burggraeve Cinematics delivered exceptional photography for our dealership. Their attention to detail and creative approach made our inventory stand out online."
                 </p>
                 <div className="mt-auto">
                   <p className="font-bold">John Carter</p>

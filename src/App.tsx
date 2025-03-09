@@ -7,7 +7,7 @@ import Gallery from './pages/Gallery';
 import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import { NotFound } from './pages/NotFound';
+import NotFound from './pages/NotFound';
 
 import './App.css';
 
