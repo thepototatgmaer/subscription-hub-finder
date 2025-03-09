@@ -4,13 +4,13 @@ import AnimatedSection from './AnimatedSection';
 
 interface GalleryItemProps {
   children: React.ReactNode;
-  animation?: string;
+  animation?: 'fade-in' | 'fade-up' | 'slide-in' | 'zoom-in';
   delay?: number;
   className?: string;
   onClick?: () => void;
 }
 
-const GalleryItem = ({ children, animation, delay, className, onClick }: GalleryItemProps) => {
+const GalleryItem = ({ children, animation = 'fade-up', delay, className, onClick }: GalleryItemProps) => {
   return (
     <div onClick={onClick} className={className}>
       <AnimatedSection animation={animation} delay={delay}>

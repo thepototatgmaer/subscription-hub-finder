@@ -6,13 +6,15 @@ interface AnimatedSectionProps {
   className?: string;
   animation?: 'fade-in' | 'fade-up' | 'slide-in' | 'zoom-in';
   delay?: number;
+  onClick?: () => void;
 }
 
 const AnimatedSection: React.FC<AnimatedSectionProps> = ({
   children,
   className = '',
   animation = 'fade-up',
-  delay = 0
+  delay = 0,
+  onClick
 }) => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -51,6 +53,7 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({
         animationDelay: `${delay}ms`,
         animationFillMode: 'forwards' 
       }}
+      onClick={onClick}
     >
       {children}
     </div>
